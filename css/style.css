@@ -1,0 +1,275 @@
+body {
+    margin: 0 auto;
+}
+header {
+    margin: 0;
+}
+.container {
+    margin: 0;
+    max-width: 14000px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 4%;
+}
+section.section1 {
+    width: 100%;
+    background: black;
+}
+.sec1-left {
+    width: 35%;
+    float: left;
+}
+.sec1-right {
+    width: 65%;
+    float: left;
+}
+section.section1::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+.sec1-left img {
+    width: 35%;
+}
+.sec1-right h1 {
+    color: white;
+    font-size: 34px;
+    font-family: initial;
+}
+.sec1-right h2 {
+    color: white;
+    font-size: 31px;
+    font-family: serif;
+    margin-left: 13%;
+}
+.menu {
+    width: 100%;
+}
+.menu ul {
+    list-style: none;
+    width: 100%;
+    padding-bottom: 5px;
+}
+.menu li {
+    float: left;
+    width: 9%;
+    text-align: center;
+    margin-left: 2%;
+}
+.menu a {
+    text-decoration: none;
+    color: #ffffff8a;
+    font-size: 20px;
+    font-family: inherit;
+	border-bottom: 1.5px solid red;
+}
+.menu ul::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+.menu a:hover {
+    color: white;
+    font-size: 21px;
+}
+marquee.marq-sec2 {
+    width: 100%;
+    background: #ffffff99;
+}
+section.sec2 {
+    width: 100%;
+    background: #8080804a;
+    margin: 0 auto;
+}
+marquee.marq-sec2 ul {
+    list-style: none;
+    width: 100%;
+}
+marquee.marq-sec2 li {
+    float: left;
+    width: 15%;
+    margin-left: 3%;
+    background: white;
+}
+span.span-sec2 {
+    width: 100%;
+    text-align:center;
+}
+marquee.marq-sec2 ul::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+h2.sec2-ht {
+    text-align: center;
+    background: black;
+    color: white;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+footer {
+    width: 100%;
+    background: black;
+    color: white;
+}
+.footer-left {
+    width: 40%;
+    float: left;
+}
+.footer-rigth {
+    width: 60%;
+    float: left;
+}
+footer::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+.footer-left h5 {
+    font-size: 20px;
+    text-align: center;
+}
+
+/* ----------- signup ------------------*/
+
+section.register {
+    width: 100%;
+    background: gainsboro;
+}
+.register h3 {
+    background: black;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+form {
+    margin-left: 19%;
+}
+input[type="text"] ,[type="email"],[type="password"] {
+    width: 65%;
+    padding: 10px;
+}    
+input.button {
+    width: 65%;
+    background: green;
+    height: 50px;
+    color: white;
+    font-size: 21px;
+    margin-top: 35px;
+    border-radius: 40px;
+    text-align: center;
+}
+form h4 {
+    margin-bottom: 0px;
+    margin-left: 10px;
+    font-size: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------*/
+section.pro_sec1 {
+    width: 100%;
+    background: gainsboro;
+}
+.pro_div {
+    width: 100%;
+    margin: 0;
+}
+
+.pro_div ul {
+    list-style: none;
+    width: 100%;
+    margin-left: 35%;
+}
+.pro_div ul li {
+    color: white;
+    background: black;
+    width: 15%;
+    border: 1px solid red;
+    padding: 15px;
+    font-size: 20;
+    height: 22px;
+    text-align: center;
+}
+.pro_div ul li:hover {
+	background:grey;
+	color:white;
+}
+.pro_div ul ul {
+    margin-top: 15px;
+    margin-left: -56px;
+}
+.pro_div ul ul li {
+    color: white;
+    background: red;
+    width: 100%;
+    border: 1px solid yellow;
+    padding: 15px;
+    font-size: 20;
+    position: relative;
+    z-index: 1000;
+    text-align: center;
+}
+.pro_div ul ul li:hover {
+	background:yellow;
+	border:1px solid red;
+	color:red;
+}
+.pro_div ul ul ul li {
+    color: white;
+    background: red;
+    width: 70%;
+    border: 1px solid yellow;
+    padding: 15px;
+    font-size: 20;
+    position: relative;
+}
+.pro_div ul ul ul li:hover {
+	background:yellow;
+	border:1px solid red;
+	color:red;
+}
+
+.pro_div ul li a {
+    text-decoration: none;
+    color:white;
+    font-size: 18px;
+    font-family: inherit;
+}
+.pro_div ul li a:hover {
+	color:red;
+}
+.pro_div ul ul {
+display:none;
+}
+.pro_div ul li:hover > ul{
+display:block;
+}
+
+.pro_div ul ul ul {
+    margin-left: 79%;
+    top: -16px;
+    position: absolute;
+}
+
+
+
